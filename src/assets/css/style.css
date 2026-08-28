@@ -328,6 +328,15 @@ p { text-wrap: pretty; }
   .burger { display: grid; }
   .header__actions .btn { display: none; }
 
+  /* backdrop-filter dělá z hlavičky containing block pro position:fixed potomky.
+     Zásuvka by se pak vešla jen do výšky hlavičky a odkazy by skončily mimo
+     obrazovku, proto se na mobilu rozostření vypíná. */
+  .header {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    background: var(--bg);
+  }
+
   .nav {
     position: fixed; inset: 0 0 0 auto; width: min(21rem, 84vw);
     flex-direction: column; align-items: stretch; justify-content: center; gap: 0;
@@ -349,7 +358,9 @@ p { text-wrap: pretty; }
   .backdrop {
     position: fixed; inset: 0; background: rgba(12,11,9,.5);
     opacity: 0; visibility: hidden; transition: opacity var(--t), visibility var(--t);
-    z-index: calc(var(--z-drawer) - 1);
+    /* Zásuvka je potomkem .header, který má vlastní stacking context.
+       Backdrop proto musí zůstat POD hlavičkou, jinak menu překryje. */
+    z-index: calc(var(--z-header) - 1);
   }
   .backdrop.open { opacity: 1; visibility: visible; }
 }
