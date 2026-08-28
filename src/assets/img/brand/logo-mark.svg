@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Značka ateliéru Vlastimil Kalaš">
+  <defs>
+    <linearGradient id="mark-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7E7B4"/>
+      <stop offset="35%" stop-color="#D9B355"/>
+      <stop offset="62%" stop-color="#A87A1C"/>
+      <stop offset="100%" stop-color="#F0D98C"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="38" r="15" fill="none" stroke="url(#mark-gold)" stroke-width="3.2"/>
+  <path d="M32 6 43 17 32 30 21 17Z" fill="url(#mark-gold)"/>
+</svg>

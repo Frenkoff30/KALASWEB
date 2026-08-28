@@ -1,0 +1,17 @@
+# Windows a OneDrive
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+
+# Editory
+.vscode/
+.idea/
+*.swp
+
+# Docasne soubory
+*.tmp
+*.log

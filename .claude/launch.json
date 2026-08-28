@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "zlatnictvi-kalas",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "5599", "--directory", "src"],
+      "port": 5599,
+      "autoPort": false
+    }
+  ]
+}

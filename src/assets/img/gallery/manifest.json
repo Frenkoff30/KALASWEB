@@ -1,0 +1,380 @@
+[
+  {
+    "slug": "prsten-zlaty-reliefni",
+    "cat": "prsteny",
+    "alt": "Masivni zlaty prsten s rucne tepanym reliefem",
+    "w": 500,
+    "h": 500
+  },
+  {
+    "slug": "snubni-prsteny-brilianty-orchidej",
+    "cat": "snubni",
+    "alt": "Snubni prsteny z bileho a zluteho zlata s brilianty",
+    "w": 500,
+    "h": 500
+  },
+  {
+    "slug": "snubni-prsteny-orchidej",
+    "cat": "snubni",
+    "alt": "Par snubnich prstenu s kamennou linkou",
+    "w": 500,
+    "h": 500
+  },
+  {
+    "slug": "snubni-prsteny-vlnka",
+    "cat": "snubni",
+    "alt": "Snubni prsteny s vlnkovym dekorem a brilianty",
+    "w": 960,
+    "h": 775
+  },
+  {
+    "slug": "zasnubni-prsten-smaragd",
+    "cat": "zasnubni",
+    "alt": "Zasnubni prsten se smaragdem v briliantovem halo",
+    "w": 500,
+    "h": 500
+  },
+  {
+    "slug": "snubni-souprava-brilianty",
+    "cat": "snubni",
+    "alt": "Souprava zasnubniho a snubniho prstenu s brilianty",
+    "w": 500,
+    "h": 500
+  },
+  {
+    "slug": "snubni-prsteny-brilianty",
+    "cat": "snubni",
+    "alt": "Snubni prsteny s pasem briliantu",
+    "w": 500,
+    "h": 394
+  },
+  {
+    "slug": "zasnubni-prsten-ruzove-zlato",
+    "cat": "zasnubni",
+    "alt": "Zasnubni prsten z ruzoveho zlata se soliterem",
+    "w": 500,
+    "h": 545
+  },
+  {
+    "slug": "prsteny-smaragd-souprava",
+    "cat": "zasnubni",
+    "alt": "Zasnubni souprava se smaragdem",
+    "w": 500,
+    "h": 276
+  },
+  {
+    "slug": "snubni-prsteny-kombinovane-zlato",
+    "cat": "snubni",
+    "alt": "Snubni prsteny z kombinovaneho zlata",
+    "w": 500,
+    "h": 320
+  },
+  {
+    "slug": "snubni-prsteny-zlute-zlato",
+    "cat": "snubni",
+    "alt": "Snubni prsteny ze zluteho zlata s brilianty",
+    "w": 500,
+    "h": 269
+  },
+  {
+    "slug": "skladane-prsteny",
+    "cat": "snubni",
+    "alt": "Originalni skladane prsteny",
+    "w": 500,
+    "h": 377
+  },
+  {
+    "slug": "snubni-prsteny-briliantove",
+    "cat": "snubni",
+    "alt": "Briliantove snubni prsteny se zdobenou sinou",
+    "w": 500,
+    "h": 500
+  },
+  {
+    "slug": "briliantove-prsteny",
+    "cat": "zasnubni",
+    "alt": "Briliantove prsteny z bileho zlata",
+    "w": 500,
+    "h": 361
+  },
+  {
+    "slug": "snubni-prsteny-detail",
+    "cat": "snubni",
+    "alt": "Detail snubnich prstenu s briliantovym posetim",
+    "w": 500,
+    "h": 324
+  },
+  {
+    "slug": "snubni-prsteny-slunecnice",
+    "cat": "snubni",
+    "alt": "Snubni prsteny s matovanym povrchem",
+    "w": 500,
+    "h": 333
+  },
+  {
+    "slug": "snubni-prsteny-atelier",
+    "cat": "snubni",
+    "alt": "Snubni prsteny z atelieru Vlastimil Kalas",
+    "w": 332,
+    "h": 500
+  },
+  {
+    "slug": "snubni-prsteny-zlate",
+    "cat": "snubni",
+    "alt": "Zlate snubni prsteny s lestenym profilem",
+    "w": 332,
+    "h": 500
+  },
+  {
+    "slug": "snubni-prsteny-zlato-brilianty",
+    "cat": "snubni",
+    "alt": "Snubni prsteny ze zluteho zlata s brilianty",
+    "w": 583,
+    "h": 405
+  },
+  {
+    "slug": "prsten-lotosovy-kvet",
+    "cat": "prsteny",
+    "alt": "Prsten Lotosovy kvet, originalni autorsky navrh",
+    "w": 500,
+    "h": 375
+  },
+  {
+    "slug": "prsten-ametyst",
+    "cat": "prsteny",
+    "alt": "Prsten s ametystem a barevnymi kameny",
+    "w": 750,
+    "h": 500
+  },
+  {
+    "slug": "prsten-barevny-kamen",
+    "cat": "prsteny",
+    "alt": "Prsten s velkym barevnym kamenem",
+    "w": 500,
+    "h": 333
+  },
+  {
+    "slug": "prsten-priroda",
+    "cat": "prsteny",
+    "alt": "Prsten s brilianty v prirodni scenerii",
+    "w": 750,
+    "h": 500
+  },
+  {
+    "slug": "prsten-detail-kameny",
+    "cat": "prsteny",
+    "alt": "Detail prstenu s vsazenymi kameny",
+    "w": 332,
+    "h": 500
+  },
+  {
+    "slug": "privesek-monogram",
+    "cat": "privesky",
+    "alt": "Privesek s rucne vyrezanym monogramem",
+    "w": 500,
+    "h": 500
+  },
+  {
+    "slug": "nahrdelnik-had",
+    "cat": "privesky",
+    "alt": "Stribrny nahrdelnik ve tvaru hada",
+    "w": 338,
+    "h": 338
+  },
+  {
+    "slug": "privesek-kobra",
+    "cat": "privesky",
+    "alt": "Privesek kobra, tematicky sperk",
+    "w": 498,
+    "h": 498
+  },
+  {
+    "slug": "privesek-strom",
+    "cat": "privesky",
+    "alt": "Privesek Strom zivota se safiry",
+    "w": 356,
+    "h": 500
+  },
+  {
+    "slug": "privesek-kvet",
+    "cat": "privesky",
+    "alt": "Privesek s kvetinovym motivem",
+    "w": 378,
+    "h": 500
+  },
+  {
+    "slug": "nahrdelnik-souprava",
+    "cat": "privesky",
+    "alt": "Nahrdelnik s krystaly a nausnice",
+    "w": 453,
+    "h": 500
+  },
+  {
+    "slug": "privesky-vltaviny",
+    "cat": "privesky",
+    "alt": "Privesky se surovymi vltaviny",
+    "w": 679,
+    "h": 500
+  },
+  {
+    "slug": "bros-ruzove-zlato",
+    "cat": "privesky",
+    "alt": "Bros z ruzoveho zlata, floristicky motiv",
+    "w": 500,
+    "h": 500
+  },
+  {
+    "slug": "souprava-nausnice-privesek",
+    "cat": "nausnice",
+    "alt": "Souprava nausnic a privesku",
+    "w": 431,
+    "h": 500
+  },
+  {
+    "slug": "nausnice-zlate",
+    "cat": "nausnice",
+    "alt": "Zlate nausnice s lestenymi plochami",
+    "w": 500,
+    "h": 500
+  },
+  {
+    "slug": "firemni-sperky-zlate",
+    "cat": "firemni",
+    "alt": "Firemni sperky se vsazenym logem",
+    "w": 720,
+    "h": 405
+  },
+  {
+    "slug": "firemni-sperky-vyroba",
+    "cat": "firemni",
+    "alt": "Seriova vyroba firemnich sperku",
+    "w": 889,
+    "h": 500
+  },
+  {
+    "slug": "sperky-atypicke",
+    "cat": "firemni",
+    "alt": "Atypicky kovovy objekt na zakazku",
+    "w": 351,
+    "h": 500
+  },
+  {
+    "slug": "3d-vizualizace-prsten",
+    "cat": "navrhy",
+    "alt": "3D vizualizace zasnubniho prstenu",
+    "w": 500,
+    "h": 500
+  },
+  {
+    "slug": "3d-vizualizace-prsten-2",
+    "cat": "navrhy",
+    "alt": "3D vizualizace, pohled z boku",
+    "w": 500,
+    "h": 500
+  },
+  {
+    "slug": "navrh-proces-sperku",
+    "cat": "navrhy",
+    "alt": "Od napadu pres navrh k finalnimu provedeni",
+    "w": 688,
+    "h": 500
+  },
+  {
+    "slug": "rucni-navrh-souprava",
+    "cat": "navrhy",
+    "alt": "Rucni navrh soupravy sperku",
+    "w": 647,
+    "h": 466
+  },
+  {
+    "slug": "rucni-navrh-prsten",
+    "cat": "navrhy",
+    "alt": "Rucni kresba navrhu prstenu",
+    "w": 649,
+    "h": 439
+  },
+  {
+    "slug": "proces-vyroby-prstenu",
+    "cat": "navrhy",
+    "alt": "Postup rucni vyroby prstenu krok za krokem",
+    "w": 500,
+    "h": 500
+  },
+  {
+    "slug": "sperk-v-krabicce",
+    "cat": "navrhy",
+    "alt": "Hotovy sperk v krabicce atelieru",
+    "w": 889,
+    "h": 500
+  },
+  {
+    "slug": "svatebni-ruce-prsteny",
+    "cat": "svatba",
+    "alt": "Novomanzele se snubnimi prsteny",
+    "w": 749,
+    "h": 500
+  },
+  {
+    "slug": "snubni-prsteny-na-rukou",
+    "cat": "svatba",
+    "alt": "Snubni prsteny na rukou novomanzelu",
+    "w": 500,
+    "h": 333
+  },
+  {
+    "slug": "prsten-na-ruce-kytice",
+    "cat": "svatba",
+    "alt": "Snubni prsten a svatebni kytice",
+    "w": 333,
+    "h": 500
+  },
+  {
+    "slug": "prsten-na-ruce-kvetiny",
+    "cat": "svatba",
+    "alt": "Snubni prsten nevesty",
+    "w": 333,
+    "h": 500
+  },
+  {
+    "slug": "prsteny-bila-ruze",
+    "cat": "svatba",
+    "alt": "Snubni prsteny v bile ruzi",
+    "w": 500,
+    "h": 430
+  },
+  {
+    "slug": "prsteny-kytice",
+    "cat": "svatba",
+    "alt": "Snubni prsteny ve svatebni kytici",
+    "w": 500,
+    "h": 333
+  },
+  {
+    "slug": "prsteny-podvazek",
+    "cat": "svatba",
+    "alt": "Snubni prsteny na svatebnim podvazku",
+    "w": 500,
+    "h": 333
+  },
+  {
+    "slug": "prsten-list",
+    "cat": "svatba",
+    "alt": "Snubni prsten na listu",
+    "w": 667,
+    "h": 500
+  },
+  {
+    "slug": "prsteny-kamen",
+    "cat": "svatba",
+    "alt": "Snubni prsteny na kameni",
+    "w": 500,
+    "h": 362
+  },
+  {
+    "slug": "prsten-na-ruce",
+    "cat": "svatba",
+    "alt": "Zasnubni prsten na ruce",
+    "w": 332,
+    "h": 500
+  }
+]
