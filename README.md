@@ -4,8 +4,9 @@ Moderní responzivní web pro zlatnický ateliér Vlastimila Kalaše (Praha 2).
 Náhrada za původní web `zlatnictvi-kalas.cz`. Veškerý obsah, kontakty,
 katalogy i fotografie pocházejí z původního webu.
 
-**Statický web**: čisté HTML, CSS a JavaScript. Žádný build, žádné závislosti,
-žádný framework. Nahraje se na hosting jako obyčejné soubory.
+**Statický web**: čisté HTML, CSS a JavaScript. Žádný build ani framework.
+Jediná knihovna je Lenis pro plynulé rolování, načítá se z CDN a bez ní web
+funguje dál. Nahraje se na hosting jako obyčejné soubory.
 
 ---
 
@@ -32,22 +33,22 @@ ZLATNICTVIWEB/
 ├── design-system/          ← výstup skillu ui-ux-pro-max (podklad pro návrh)
 ├── skills/                 ← skill ui-ux-pro-max
 └── src/                    ← SAMOTNÝ WEB (nahrává se na hosting
-    ├── index.html          Domů: hero, ukázka prací, nabídka
-    ├── atelier.html        O ateliéru, portrét, jak zakázka probíhá
-    ├── sluzby.html         15 služeb + detaily technologií + co vyrábíme
+    ├── index.html          Domů: hero, nabídka, citát, vybrané kousky, cesta ke šperku
+    ├── atelier.html        Portrét zlatníka a krátce o něm
+    ├── sluzby.html         Rejstřík služeb a tři technologie
     ├── galerie.html        Galerie s filtrováním a lightboxem
     ├── katalogy.html       Katalogy ke stažení + výkup zlata
     ├── spoluprace.html     Svatební salony a partneři
     ├── kontakt.html        Kontakty, poptávkový formulář, mapa
     ├── favicon.svg
     └── assets/
-        ├── css/style.css   ← VŠECHNY styly (jeden soubor, 12 očíslovaných částí)
+        ├── css/style.css   ← VŠECHNY styly (jeden soubor, 14 očíslovaných částí)
         ├── js/
         │   ├── data.js     ← obsah galerie a partnerů (jediné místo k úpravám)
-        │   └── app.js      ← chování webu (motiv, menu, galerie, lightbox, formulář)
+        │   └── app.js      ← chování webu (rolování, hlavička, hero, menu, galerie, formulář)
         ├── img/
         │   ├── gallery/    54 fotek realizací + složka thumb/ s náhledy
-        │   ├── hero/       velké fotky pro úvodní a obsahové sekce
+        │   ├── hero/       7 studiových fotek do hero a portrét zlatníka
         │   └── brand/      logo a náhledový obrázek pro sociální sítě
         └── files/          katalogy a obchodní podmínky v PDF
 ```
@@ -85,23 +86,25 @@ a `KALAS.salons` (prostý seznam).
 ### Změnit barvy nebo písma
 
 Vše je v `src/assets/css/style.css`, sekce `01 TOKENY`. Změna jedné proměnné
-se propíše do celého webu. Tmavý motiv má vlastní sadu hodnot hned pod světlým.
+se propíše do celého webu. Tmavá scéna (hero a patička) má vlastní proměnné
+`--stage-*`. Podrobnosti v `docs/DESIGN.md`.
 
 ### Změnit menu
 
 Hlavička a patička jsou kvůli jednoduchosti (bez build kroku) na každé
 stránce zvlášť. Při změně menu je potřeba upravit `<nav class="nav">`
-a patičku ve všech sedmi `.html` souborech.
+ve všech sedmi `.html` souborech.
 
 ### Psaní textů
 
 Web mluví v první osobě jednotného čísla (jsem, vyrábím, ozvu se) a
 **nepoužívá pomlčky**. Věty se dělí čárkou, dvojtečkou nebo tečkou.
 
-Každá informace má na webu **jedno místo**. Vzdělání a rok 1999 jsou
-v odstavci na stránce Ateliér, adresa v patičce a na Kontaktu, postup
-zakázky jen na Ateliéru. Když něco přidáváte, zkontrolujte, jestli to
-už jinde není.
+Texty jsou **krátké**: nadpis a nanejvýš jedna věta. Každá informace
+i fotka má na webu **jedno místo**. Vzdělání a rok 1999 jsou jen na stránce
+Ateliér, telefony a adresa jen na Kontaktu, IČO a DIČ jen v patičce, cesta
+ke šperku jen na úvodní stránce. Když něco přidáváte, zkontrolujte, jestli
+to už jinde není.
 
 ---
 
@@ -111,26 +114,27 @@ Web je statický, takže formulář po ověření polí otevře předvyplněnou 
 v e-mailovém programu návštěvníka (`mailto:`). Funguje to všude a bez serveru.
 
 **Napojení na skutečné odesílání** (např. Formspree, EmailJS nebo PHP skript):
-v `src/assets/js/app.js`, sekce `8 FORMULÁŘ POPTÁVKY`, stačí přepsat funkci
+v `src/assets/js/app.js`, sekce `9 FORMULÁŘ POPTÁVKY`, stačí přepsat funkci
 `send()`. Validace, chybové stavy i potvrzovací hláška zůstanou beze změny.
 
 ---
 
 ## Co web umí
 
-- **Světlý i tmavý motiv**, přepínač v hlavičce. Volba se pamatuje
-  (`localStorage`) a nastaví se ještě před vykreslením, takže stránka neproblikne
-- **Plně responzivní**, ověřeno na 375, 390, 768, 1024 a 1440 px, bez vodorovného posuvu
+- **Hero přes celou obrazovku**: nadpis vlevo, sedm prolínajících se fotek
+  vpravo, text do fotek nikdy nezasahuje
+- **Plynulé rolování** (Lenis) a **plynulé přechody mezi stránkami**
+  (`@view-transition`), obojí se vypne pro `prefers-reduced-motion`
+- **Responzivní**, ověřeno na 375, 1440 a 1920 px, bez vodorovného posuvu
 - **Galerie** s filtrováním podle typu šperku, postupným načítáním po 12 fotkách
   a lightboxem ovládaným klávesnicí (←, →, Esc) i přejetím prstem
 - **Přístupnost**: sémantické HTML, `aria-current` pro aktuální stránku,
   viditelný focus, popisky u všech ikon, udržení fokusu v otevřeném menu
   i lightboxu, kontrast textu min. 4,5:1, respekt k `prefers-reduced-motion`
 - **SEO**: vlastní `<title>` a popis pro každou stránku, kanonické URL,
-  Open Graph náhled, drobečková navigace
+  Open Graph náhled
 - **Obrázky** přepočítané na rozumnou velikost, `loading="lazy"`,
   uvedené rozměry (nic neposkakuje při načítání), popisné `alt` texty
-- **Zvlněné přechody** mezi sekcemi se zlatou linkou, čisté SVG bez obrázků
 
 ---
 

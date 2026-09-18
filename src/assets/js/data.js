@@ -91,10 +91,8 @@ KALAS.photos = [
 
 /* --- Partneři s vlastním webem ----------------------------------------- */
 KALAS.partners = [
-  { name: 'Kleinod', role: 'Svatební dům, Praha 2', url: 'https://www.kleinod.cz',
-    note: 'Sídlo mého ateliéru. Hlavní vchod vede právě přes svatební dům.' },
-  { name: 'OK Šperky', role: 'E-shop', url: 'https://www.ok-sperky.cz',
-    note: 'Šperky z mé nabídky pohodlně z domova či kanceláře.' },
+  { name: 'Kleinod', role: 'Svatební dům, Praha 2', url: 'https://www.kleinod.cz' },
+  { name: 'OK Šperky', role: 'E-shop', url: 'https://www.ok-sperky.cz' },
   { name: 'Svatby od Markéty', role: 'Koordinace a dekorace', url: 'https://www.svatbyodmarkety.cz' },
   { name: 'Svatební šaty Adina', role: 'Svatební salon', url: 'https://svatebni-saty-adina.cz' },
   { name: 'Lucie Hromádková', role: 'Vizáž a make-up', url: 'https://www.luciehromadkova.cz' },

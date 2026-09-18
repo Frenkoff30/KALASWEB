@@ -3,40 +3,30 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Galerie realizací: snubní prsteny a šperky na míru | Zlatnictví Kalaš</title>
-<meta name="description" content="Přes padesát fotografií skutečných realizací ateliéru: snubní a zásnubní prsteny, přívěsky, náušnice, firemní šperky, ruční návrhy i 3D vizualizace.">
+<title>Galerie šperků | Zlatnictví Vlastimil Kalaš</title>
+<meta name="description" content="Fotografie skutečných realizací: snubní a zásnubní prsteny, přívěsky, náušnice, firemní šperky a návrhy.">
 <meta name="robots" content="index, follow">
-<meta name="theme-color" content="#FFFFFF">
 <link rel="canonical" href="https://www.zlatnictvi-kalas.cz/galerie.html">
+<meta name="theme-color" content="#19130D">
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="cs_CZ">
 <meta property="og:site_name" content="Zlatnictví Vlastimil Kalaš">
-<meta property="og:title" content="Galerie realizací: snubní prsteny a šperky na míru | Zlatnictví Kalaš">
-<meta property="og:description" content="Přes padesát fotografií skutečných realizací ateliéru: snubní a zásnubní prsteny, přívěsky, náušnice, firemní šperky, ruční návrhy i 3D vizualizace.">
+<meta property="og:title" content="Galerie šperků | Zlatnictví Vlastimil Kalaš">
+<meta property="og:description" content="Fotografie skutečných realizací: snubní a zásnubní prsteny, přívěsky, náušnice, firemní šperky a návrhy.">
 <meta property="og:image" content="assets/img/brand/og-image.jpg">
-<meta property="og:url" content="https://www.zlatnictvi-kalas.cz/galerie.html">
 <meta name="twitter:card" content="summary_large_image">
 
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&amp;family=Montserrat:wght@400;500;600;700&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=Jost:wght@400;500;600&amp;display=swap">
 <link rel="stylesheet" href="assets/css/style.css">
-
-<script>
-  /* Uložený motiv se nastaví ještě před vykreslením, aby stránka neproblikla. */
-  (function () {
-    try { if (localStorage.getItem('kalas-theme') === 'dark') {
-      document.documentElement.setAttribute('data-theme', 'dark');
-    } } catch (e) {}
-  })();
-</script>
 </head>
 <body>
 <a class="skip-link" href="#obsah">Přeskočit na obsah</a>
 
-<header class="header">
+<header class="header" data-header>
   <div class="header__inner">
 
     <a class="brand" href="index.html" aria-label="Zlatnictví Vlastimil Kalaš, úvodní stránka">
@@ -48,24 +38,18 @@
     </a>
 
     <nav class="nav" id="menu" data-nav aria-label="Hlavní navigace">
-        <a href="index.html">Domů</a>
-        <a href="atelier.html">Ateliér</a>
-        <a href="sluzby.html">Služby</a>
-        <a href="galerie.html" aria-current="page">Galerie</a>
-        <a href="katalogy.html">Katalogy</a>
-        <a href="spoluprace.html">Spolupráce</a>
-        <a href="kontakt.html">Kontakt</a>
-        <a class="btn primary sm" href="kontakt.html#poptavka">Nezávazná poptávka</a>
+      <ul class="nav__list">
+        <li class="nav__home" style="--i:0"><a href="index.html">Domů</a></li>
+        <li style="--i:1"><a href="atelier.html">Ateliér</a></li>
+        <li style="--i:2"><a href="sluzby.html">Služby</a></li>
+        <li style="--i:3"><a href="galerie.html" aria-current="page">Galerie</a></li>
+        <li style="--i:4"><a href="katalogy.html">Katalogy</a></li>
+        <li style="--i:5"><a href="spoluprace.html">Spolupráce</a></li>
+        <li style="--i:6"><a href="kontakt.html">Kontakt</a></li>
+      </ul>
     </nav>
 
     <div class="header__actions">
-      <a class="btn primary sm" href="kontakt.html#poptavka">Nezávazná poptávka</a>
-
-      <button class="theme-btn" type="button" data-theme-btn aria-label="Přepnout na tmavý motiv">
-        <svg class="sun" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
-        <svg class="moon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6.4 6.4 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
-      </button>
-
       <button class="burger" type="button" data-burger aria-expanded="false" aria-controls="menu" aria-label="Otevřít menu">
         <span></span><span></span><span></span>
       </button>
@@ -73,133 +57,91 @@
 
   </div>
 </header>
-<div class="backdrop" data-backdrop aria-hidden="true"></div>
 
 <main id="obsah">
 
   <section class="page-head">
     <div class="container">
-      <nav class="crumbs" aria-label="Drobečková navigace">
-        <a href="index.html">Domů</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg><span aria-current="page">Galerie</span>
-      </nav>
-      <p class="eyebrow mt-6">Realizace</p>
       <h1 class="h1">Galerie <em>šperků</em></h1>
-      <p class="lead">Výběr z mé práce za poslední roky. Filtrujte podle typu šperku, kliknutím fotografii zvětšíte.</p>
+      <p class="lead">Kliknutím fotku zvětšíte.</p>
     </div>
   </section>
 
   <section class="section">
     <div class="container wide">
       <div class="filters" data-filters role="group" aria-label="Filtr podle typu šperku"></div>
-
       <div class="gallery" data-gallery></div>
-
-      <p class="gallery-empty" data-empty>
-        Pro zvolený filtr zatím nemáme fotografie. Zkuste prosím jinou kategorii.
-      </p>
-
+      <p class="gallery-empty" data-empty>V této kategorii zatím nic není.</p>
       <div class="gallery-more">
         <button class="btn ghost" type="button" data-more>Zobrazit další</button>
       </div>
     </div>
   </section>
 
-  <section class="section closing">
-    <div class="container">
-      <div class="engrave" aria-hidden="true"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="3.5" y="3.5" width="25" height="25" rx="7" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M16 9.5 21.5 16 16 22.5 10.5 16Z" fill="currentColor"/></svg></div>
-      <div class="cta" data-reveal>
-        <div>
-          <h2 class="h3">Máte v hlavě šperk, který nikde nekoupíte?</h2>
-          <p>Napište mi pár vět o své představě. Ozvu se vám v nejbližším možném
-             termínu a společně ji převedeme do návrhu.</p>
-        </div>
-        <div class="btn-row">
-          <a class="btn primary" href="kontakt.html#poptavka">Nezávazná poptávka<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-          <a class="btn ghost" href="galerie.html">Galerie</a>
-        </div>
+  <section class="closing">
+    <div class="container narrow" data-reveal>
+      <div class="closing__mark" aria-hidden="true"><span class="gem"></span></div>
+      <h2 class="h2">Máte v hlavě <em>svůj šperk?</em></h2>
+      <p class="lead">Ozvu se vám co nejdřív.</p>
+      <div class="btn-row center">
+        <a class="btn primary" href="kontakt.html#poptavka">Nezávazná poptávka<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
+        <a class="btn ghost" href="tel:+420773631133">Zavolat</a>
       </div>
     </div>
   </section>
 
 </main>
-  <div class="wave wave--to-soft" aria-hidden="true">
-    <svg viewBox="0 0 1440 64" preserveAspectRatio="none">
-      <path class="wave__fill" d="M0 34 C 240 56, 480 10, 720 26 C 960 42, 1200 6, 1440 30 L1440 64 L0 64 Z"/>
-      <path class="wave__line" d="M0 34 C 240 56, 480 10, 720 26 C 960 42, 1200 6, 1440 30"/>
-    </svg>
-  </div>
 
-<footer class="footer">
-  <div class="container">
-    <div class="footer__grid">
-
-      <div>
-        <a class="brand" href="index.html" aria-label="Zlatnictví Vlastimil Kalaš, úvodní stránka">
-          <svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="gm" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E7C878"/><stop offset="45%" stop-color="#C29434"/><stop offset="100%" stop-color="#8A6212"/></linearGradient></defs><circle cx="32" cy="38" r="15" fill="none" stroke="url(#gm)" stroke-width="3.4"/><path d="M32 6 43 17 32 30 21 17Z" fill="url(#gm)"/></svg>
-          <span>
-            <span class="brand__name">Vlastimil&nbsp;Kalaš</span>
-            <span class="brand__sub">Zlatnictví</span>
-          </span>
-        </a>
-        <p>Zlatník, klenotník a designer originálních šperků. Zakázková výroba
-           ze zlata, stříbra, platiny a chirurgické oceli.</p>
-      </div>
-
-      <div>
-        <h2>Web</h2>
-        <ul>
-          <li><a href="atelier.html">Ateliér</a></li>
-          <li><a href="sluzby.html">Služby</a></li>
-          <li><a href="galerie.html">Galerie</a></li>
-          <li><a href="katalogy.html">Katalogy</a></li>
-          <li><a href="spoluprace.html">Spolupráce</a></li>
-          <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h2>Kontakt</h2>
-        <ul>
-          <li><a href="tel:+420773631133">+420 773 631 133 (admin)</a></li>
-          <li><a href="tel:+420604468043">+420 604 468 043 (dílna)</a></li>
-          <li><a href="mailto:vlastik@zlatnictvi-kalas.cz">vlastik@zlatnictvi-kalas.cz</a></li>
-          <li><span>Anglická 510/13, Praha 2</span></li>
-          <li><span>IČO 87569221 · DIČ CZ7901233593</span></li>
-        </ul>
-      </div>
-
-    </div>
+<footer class="footer on-stage">
+  <div class="container wide">
+    <div class="footer__mark" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="gm2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E7C878"/><stop offset="45%" stop-color="#C29434"/><stop offset="100%" stop-color="#8A6212"/></linearGradient></defs><circle cx="32" cy="38" r="15" fill="none" stroke="url(#gm2)" stroke-width="3.4"/><path d="M32 6 43 17 32 30 21 17Z" fill="url(#gm2)"/></svg></div>
+    <a class="footer__word" href="index.html" aria-label="Zlatnictví Vlastimil Kalaš, úvodní stránka">Vlastimil Kalaš</a>
 
     <div class="footer__bottom">
-      <p>&copy; <span data-year>2026</span> Vlastimil Kalaš, zlatnictví. Všechna práva vyhrazena.</p>
-      <p><a href="assets/files/obchodni-podminky.pdf" target="_blank" rel="noopener">Obchodní podmínky</a></p>
+      <p class="footer__legal">
+        <span>&copy; <span data-year>2026</span></span>
+        <span>IČO 87569221</span>
+        <span>DIČ CZ7901233593</span>
+        <a href="assets/files/obchodni-podminky.pdf" target="_blank" rel="noopener">Obchodní podmínky</a>
+      </p>
+
+      <a class="credit" href="https://www.webostudio.cz/" target="_blank" rel="noopener">
+        <span class="credit__label">Web vytvořilo</span>
+        <span class="credit__logo" aria-hidden="true">
+          <svg class="credit__chev" viewBox="0 0 8 14"><path d="M7 1 1 7l6 6"/></svg>
+          <span class="credit__word"><span>we</span><span>bo</span></span>
+          <svg class="credit__chev" viewBox="0 0 8 14"><path d="m1 1 6 6-6 6"/></svg>
+        </span>
+        <span class="sr-only">Webo Studio (otevře se v novém okně)</span>
+      </a>
     </div>
   </div>
 </footer>
 
 <button class="to-top" type="button" data-to-top aria-label="Zpět nahoru">
-  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
 </button>
 
 <div class="lightbox" data-lightbox role="dialog" aria-modal="true" aria-label="Prohlížeč fotografií" aria-hidden="true">
   <div class="lightbox__bar">
-    <span class="lightbox__count" data-lb-count>1 / 1</span>
+    <span class="lightbox__count" data-lb-count>01 / 01</span>
     <button class="lb-btn" type="button" data-lb-close aria-label="Zavřít prohlížeč">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
     </button>
   </div>
   <div class="lightbox__stage">
     <button class="lb-btn lightbox__nav prev" type="button" data-lb-prev aria-label="Předchozí fotografie">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
     </button>
     <img data-lb-img alt="">
     <button class="lb-btn lightbox__nav next" type="button" data-lb-next aria-label="Další fotografie">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
     </button>
   </div>
   <p class="lightbox__cap" data-lb-cap></p>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.3.26/dist/lenis.min.js" defer></script>
 <script src="assets/js/data.js" defer></script>
 <script src="assets/js/app.js" defer></script>
 </body>
